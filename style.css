@@ -51,14 +51,6 @@ audio{
 	width: 50%;
 	margin: 4rem auto;
 }
-hr{
-    margin: 0 auto 1rem;
-    height: 1px;
-    width: 80%;
-    border-width: 0;
-    color: white;
-    background-color: white;
-}
 .audio-text{
 	border: 1px solid white;
 	height: auto;
