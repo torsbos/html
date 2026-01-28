@@ -25,6 +25,9 @@ p {
 .hlinks a{
 	margin: 0 6vw;
 }
+.img_hlinks a{
+	margin: 2rem 6vw 0;
+}
 a{
 	transition: 0.15s;
 }
@@ -40,11 +43,6 @@ img{
 	width: auto;
 	display: block;
 	margin: 8rem auto 0.5rem;
-	border: 1px solid black;
-	transition: 0.5s;
-}
-img:hover{
-	border-color: white;
 }
 audio{
 	display: inline-block;
