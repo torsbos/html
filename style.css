@@ -22,6 +22,16 @@ h3{
 p {
 	font-size: 1rem;
 }
+pre {
+  display: inline-block;
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+}
+.ascii {
+  margin-top: 6rem;
+  display: block;
+  text-align: center;
+}
 .hlinks a{
 	margin: 0 6vw;
 }
