@@ -9,11 +9,11 @@ html{
 	font-size: 16px;
   }
 h1{
-	font-size: 4rem;
+	font-size: 6rem;
 	margin: 3rem 0 6rem;
   }
 h2{
-	font-size: 3rem;
+	font-size: 4rem;
 	margin: 2rem 0 4rem;
   }
 h3{
@@ -46,11 +46,11 @@ audio{
 .audio-text{
 	border: 1px solid black;
 	height: auto;
-	width: 16rem;
-	padding: 1rem;
+	width: 14rem;
+	padding: 2rem 0;
 	display: inline-block;
 	vertical-align: middle;
-	margin-right: 4rem;
+	margin: 2rem 0;
   filter: drop-shadow(8px 8px 0px black);
   }
 .cc{
