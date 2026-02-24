@@ -5,16 +5,17 @@
 	text-align: center;
 	font-family: 'Times New Roman', serif;
   text-decoration: none;
+  transition: 0.15s;
   }
 html{
 	font-size: 16px;
   }
 h1{
-	font-size: 6rem;
-	margin: 2rem 0 3.6rem;
+	font-size: 6.4rem;
+	margin: 1.6rem 0 3.0rem;
   }
 h2{
-	font-size: 3rem;
+	font-size: 4.5rem;
 	margin: 1.8rem 0;
   }
 h3{
@@ -24,8 +25,11 @@ h3{
 p{
 	font-size: 1rem;
   }
-.gif img{
-  margin: 4rem 0 0;
+a:hover{
+  opacity: 80%;
+  }
+a:active{
+  opacity: 40%;
   }
 .cc{
 	font-style: italic;
@@ -33,10 +37,10 @@ p{
 	margin: 30% 0 2rem;
   }
 .cc hr{
- margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
   }
-.triptyk hr{
- margin: 8rem 0 8rem;
+.triptyk br{
+  margin: 2rem 0 2rem;
   }
 .btn{
   display: flex;
