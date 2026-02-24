@@ -4,54 +4,28 @@
 	color: black;
 	text-align: center;
 	font-family: 'Times New Roman', serif;
+  text-decoration: none;
   }
 html{
 	font-size: 16px;
   }
 h1{
 	font-size: 6rem;
-	margin: 6rem 0;
+	margin: 2rem 0 3.6rem;
   }
 h2{
-	font-size: 4rem;
-	margin: 4rem 0;
+	font-size: 3rem;
+	margin: 1.8rem 0;
   }
 h3{
 	font-size: 2rem;
+	margin: 1.6rem 0;
   }
 p{
 	font-size: 1rem;
   }
-hr{
- margin: 8rem 0 8rem;
-  }
-br{
-  margin: 6rem 0 0;
-  }
-a{
-  text-decoration: none;
-  }
-img{
-	max-width: 100%;
-	height: auto;
-	display: block;
-	margin: 8rem auto 1rem;
-  }
-audio{
-	display: inline-block;
-	vertical-align: middle;
-	width: 50%;
-	margin: 1.4rem auto;
-  }
-.audio-text{
-	border: 1px solid black;
-	height: auto;
-	width: 14rem;
-	padding: 2rem 0;
-	display: inline-block;
-	vertical-align: middle;
-	margin: 2rem 0;
-  filter: drop-shadow(8px 8px 0px black);
+.gif img{
+  margin: 4rem 0 0;
   }
 .cc{
 	font-style: italic;
@@ -61,25 +35,33 @@ audio{
 .cc hr{
  margin-bottom: 0.5rem;
   }
+.triptyk hr{
+ margin: 8rem 0 8rem;
+  }
 .btn{
   display: flex;
   justify-content: center;
   align-items: center;
   }
 .btn a{
-  margin: 0 4vw 0;
-  padding: 0.5rem 1rem 1rem; 
+	padding: 0 1rem 0.5rem;
+  }
+.btn a, .foto img{
   border: 1px solid black;
   filter: drop-shadow(8px 8px 0px black);
   }
-.img_hlinks a{
+.img_nav a{
 	display: inline-block;
-	margin: 4rem 6vw 0;
+	margin: 0 2rem 8rem;
+  padding: 0 1rem 1.3rem;
   }
-.foto img{
-  border: 1px solid black;
-  filter: drop-shadow(8px 8px 0px black);
+.demos{
+	margin: 2rem 0 8rem;
   }
 .foto a{
-  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  }
+.foto p{
+  margin: 0.8rem 0 8rem;
   }
