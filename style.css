@@ -44,7 +44,7 @@ img, .box{
   padding: 0 4rem;
   display: grid;
   grid-template-columns: auto auto;
-  gap: 1rem;
+  gap: 4rem;
   justify-content: center;
   }
 .foto img{
@@ -81,6 +81,7 @@ img, .box{
     }
   .foto {
     grid-template-columns: auto;
-    padding: 0.5rem;
+    padding: 1rem;
+    gap: 16rem;
     }
   }
