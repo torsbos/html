@@ -1,7 +1,10 @@
-body, h1, h2, h3, p, a{
+h1, h2, h3, p, a{
 	background: white;
 	color: black;
 	font-family: 'Times New Roman', serif;
+  }
+body{
+  padding-bottom: 4rem;
   }
 html{
 	font-size: 16px;
@@ -38,17 +41,14 @@ img, .box{
   border: 1px solid black;
   }
 .foto{
+  padding: 0 4rem;
   display: grid;
   grid-template-columns: auto auto;
+  gap: 1rem;
   justify-content: center;
-  align-items: center;
   }
-.foto a{
-  margin: 0 1rem;
-  }
-.foto p{
-  margin: 0.2rem 0 4rem;
-  text-align: center;
+.foto img{
+  width: 100%;
   }
 .box{
   margin: auto;
@@ -63,15 +63,24 @@ img, .box{
   justify-content: center;
   align-items: center;
   }
-.album div{
-  margin: 0 1rem;
+.album img{
+  display: block;
+  margin: auto;
+  width: 70%;
   }
 .album h3{
   text-align: center;
   margin: 0.5rem auto 8rem;
   }
 @media(max-width: 1000px) {
-	.foto, .album{
-  grid-template-columns: auto;
-	}
-}
+	.album{
+    grid-template-columns: auto;
+    }
+  .album img{
+    width: 100%;
+    }
+  .foto {
+    grid-template-columns: auto;
+    padding: 0.5rem;
+    }
+  }
