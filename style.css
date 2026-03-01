@@ -56,7 +56,7 @@ img, .box{
   margin: auto;
   width: 24rem;
   }
-.box h2, h3, p{
+.box h2, .box h3, .box p{
   margin: 1rem;
   }
 .album{
@@ -75,5 +75,28 @@ img, .box{
 	.album, .foto{
     grid-template-columns: auto;
     padding: 1rem;
+    }
+  .box{
+    width: 38rem;
+    }
+  h1{
+    font-size: 10rem; 
+    }
+  .box h2{
+    margin: 3rem 2rem;
+    font-size: 7rem;
+    }
+  .box h3{
+    margin: 5rem 2rem;
+    font-size: 4rem;
+    }
+  .box p{
+    margin: 2rem 2rem;
+    font-size:1.4rem;
+    line-height: 0;
+    }
+  p{
+    font-size:1.4rem;
+    line-height: 0.6rem;
     }
   }
