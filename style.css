@@ -76,27 +76,31 @@ img, .box{
     grid-template-columns: auto;
     padding: 1rem;
     }
-  .box{
-    width: 38rem;
-    }
   h1{
-    font-size: 10rem; 
+    font-size: 12rem; 
+    }
+  h3{
+    font-size: 4rem;
+    }
+  p{
+    font-size: 1.6rem;
+    line-height: 0.6rem;
+    }
+  .box{
+    width: 44rem;
     }
   .box h2{
-    margin: 3rem 2rem;
-    font-size: 7rem;
+    margin: 4rem 3rem;
+    font-size: 8rem;
     }
   .box h3{
-    margin: 5rem 2rem;
-    font-size: 4rem;
+    margin: 4rem 3rem;
     }
   .box p{
     margin: 2rem 2rem;
-    font-size:1.4rem;
     line-height: 0;
     }
-  p{
-    font-size:1.4rem;
-    line-height: 0.6rem;
+  .foto p{
+    line-height: 2.4rem;
     }
   }
