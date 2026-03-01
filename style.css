@@ -43,11 +43,13 @@ img, .box{
 .foto{
   padding: 0 4rem;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 32rem 32rem;
   gap: 4rem;
   justify-content: center;
   }
-.foto img{
+.foto img, .album img{
+  display: block;
+  margin: auto;
   width: 100%;
   }
 .box{
@@ -60,28 +62,18 @@ img, .box{
 .album{
   display: grid;
   grid-template-columns: auto auto auto;
+  gap: 4rem;
+  padding: 0 4rem;
   justify-content: center;
   align-items: center;
   }
-.album img{
-  display: block;
-  margin: auto;
-  width: 70%;
-  }
-.album h3{
+.album h3, .foto p{
   text-align: center;
   margin: 0.5rem auto 8rem;
   }
 @media(max-width: 1000px) {
-	.album{
-    grid-template-columns: auto;
-    }
-  .album img{
-    width: 100%;
-    }
-  .foto {
+	.album, .foto{
     grid-template-columns: auto;
     padding: 1rem;
-    gap: 16rem;
     }
   }
