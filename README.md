@@ -1,8 +1,6 @@
 # torsborn.se
-this is a website coded entirely in HTML and CSS.
+this is a minimal website coded entirely in HTML and CSS.
 it is inspired by early internet websites.
-gifs are from
-[gifcities.org](https://gifcities.org).
 all source code is licensed under
 [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html#license-text).
 all other works are licensed under
