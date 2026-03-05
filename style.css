@@ -1,14 +1,21 @@
 body{
   font: 1.2em / 1.4em serif;
   max-width: 30em;
-  padding: 0 0.6em 3em;
+  padding: 0 0.6em 3em
 }
 nav > a{
-  margin-right: 2em;
+  margin-right: 2em
 }
-@media screen and (max-width: 1000px){
+@media (max-width: 1000px){
   body{
-  font: 2.8em / 1.4em serif;
+  font: 3.2em / 1.6em serif;
   max-width: 100%
+  }
+  li{
+    line-height: 2.6em
+  }
+  img{
+    width: 100%;
+    padding-right: 0.6em
   }
 }
