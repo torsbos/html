@@ -1,105 +1,12 @@
-h1, h2, h3, p, a{
-	background: white;
-	color: black;
-	font-family: 'Times New Roman', serif;
-  }
 body{
-  padding-bottom: 4rem;
-  }
-html{
-	font-size: 16px;
-  }
-h1{
-  text-align: center;
-	font-size: 6.4rem;
-	margin: 1.6rem 0 3.0rem;
-  }
-h2{
-	font-size: 4.5rem;
-	margin: 1.8rem 0;
-  }
-h3{
-	font-size: 2rem;
-	margin: 1.6rem 0;
-  }
-p{
-	font-size: 1rem;
-  line-height: 0.4rem;
-  }
-a{
-  text-decoration: none;
-  }
-a:hover{
-  text-decoration: underline;
-  }
-.cc{
-	font-style: italic;
-	margin-top: 2rem;
-  }
-img, .box{
-  border: 1px solid black;
-  }
-.foto{
-  padding: 0 4rem;
-  display: grid;
-  grid-template-columns: 32rem 32rem;
-  gap: 4rem;
-  justify-content: center;
-  }
-.foto img, .album img{
-  display: block;
-  margin: auto;
-  width: 100%;
-  }
-.box{
-  margin: auto;
-  width: 24rem;
-  }
-.box h2, .box h3, .box p{
-  margin: 1rem;
-  }
-.album{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 4rem;
-  padding: 0 4rem;
-  justify-content: center;
-  align-items: center;
-  }
-.album h3, .foto p{
-  text-align: center;
-  margin: 0.5rem auto 8rem;
-  }
-@media(max-width: 1000px) {
-	.album, .foto{
-    grid-template-columns: auto;
-    padding: 1rem;
-    }
-  h1{
-    font-size: 12rem; 
-    }
-  h3{
-    font-size: 4rem;
-    }
-  p{
-    font-size: 1.6rem;
-    line-height: 0.6rem;
-    }
-  .box{
-    width: 44rem;
-    }
-  .box h2{
-    margin: 4rem 3rem;
-    font-size: 8rem;
-    }
-  .box h3{
-    margin: 4rem 2rem;
-    }
-  .box p{
-    margin: 2rem 2rem;
-    line-height: 0;
-    }
-  .foto p{
-    line-height: 2.4rem;
-    }
-  }
+  max-width: 30em;
+  margin: 1em auto;
+  padding: 0 0.6em 3.2em;
+  font: 1.2em/1.4 serif
+}
+h1,h2,h3{
+  line-height: 1.2
+}
+nav > a{
+  margin-right: 2em
+}
