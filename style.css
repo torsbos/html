@@ -12,10 +12,10 @@ img{
 @media screen and (prefers-color-scheme: dark){
   body{
     color: white;
-    background-color: #101418
+    background-color: #060606
   }
   a{
-    color: #00cadb
+    color: #00b6f9
   }
 }
 @media screen and (max-width: 1000px){
