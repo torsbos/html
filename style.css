@@ -1,5 +1,6 @@
 body{
   font: 1.2em / 1.4em serif;
+  margin: auto;
   max-width: 30em;
   padding: 0 0.6em 3em;
 }
@@ -23,7 +24,7 @@ img{
 }
 @media screen and (max-width: 1000px){
   body{
-  font: 3.5em / 1.6em serif;
+  font: 2.8em / 1.6em serif;
   max-width: 100%
   }
   li{
