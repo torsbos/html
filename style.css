@@ -23,12 +23,9 @@ img{
   max-width: 18em
 }
 @media screen and (prefers-color-scheme: dark){
-  body{
+  body, a{
     color: white;
     background-color: #060606
-  }
-  a{
-    color: #00b6f9
   }
 }
 @media screen and (max-width: 1000px){
